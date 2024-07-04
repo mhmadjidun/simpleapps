@@ -20,7 +20,7 @@ COPY . .
 # RUN npx prisma migrate dev --name init
 
 # Expose port yang akan digunakan oleh aplikasi
-EXPOSE 5000
+EXPOSE 8080
 
 # Command untuk menjalankan aplikasi
 CMD ["node", "index.js"]
